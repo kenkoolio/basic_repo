@@ -1,0 +1,198 @@
+*{
+  margin: 0;
+  font-family: "helvetica neue", arial, sans-serif;
+  box-sizing: border-box;
+}
+
+div#container {
+  width: 1100px;
+  border: 1px solid red;
+  height: 600px;
+  margin: 0 auto;
+}
+
+div#row1 ul{
+  padding-left: 5px;
+}
+
+#row1 li{
+  color: red;
+  list-style-type: none;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+
+}
+
+li#three {
+  margin-left: 10px;
+}
+
+#groupLabel {
+  display: inline-block;
+}
+
+li#periodLabel {
+  display: block;
+  height: 10px;
+  line-height: 10px;
+  padding-bottom: 0;
+  padding-top: 0;
+  position: relative;
+  top: -10px;
+}
+
+/* row 2 */
+
+div#row2{
+  margin-top: 10px;
+}
+
+  div#row2 ul{
+    padding:0;
+  }
+
+
+div#periodNumbers {
+  display:inline-block;
+}
+
+  div#periodNumbers li{
+    color: red;
+    list-style-type: none;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 2px;
+
+  }
+
+/*blue Div*/
+div#blueDiv {
+ display: inline-block;
+ width: 105px;
+ vertical-align: top;
+ margin-left: 2px;
+ margin-right: ;
+}
+  /*div#blueDiv li:nth-child(n+3):nth-child(odd):nth-child(-n+13){
+    display:inline-block;
+  }*/
+
+
+li#hydrogen{
+  display: block;
+}
+
+li#helium{
+  display: block;
+  margin-left: 273px;
+}
+
+
+/*pink Div */
+
+div#pinkDiv{
+  width: 545px;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: 10px;
+}
+
+/* yellow Div */
+
+div#yellowDiv{
+  width: 350px;
+  display: inline-block;
+  vertical-align: bottom;
+  position: relative;
+  left:-4px;
+}
+
+
+/* row 3 */
+
+div#row3{
+  margin-top: 20px;
+  padding-left: 0;
+}
+
+div#lanthanoidsAndActinoids {
+  display: inline-block;
+}
+  div#lanthanoidsAndActinoids ul{
+    padding: 0;
+  }
+  div#lanthanoidsAndActinoids li{
+    list-style-type: none;
+    color: red;
+    margin: 3px 0 22px 55px;
+    padding-top: 12px;
+  }
+
+/* green Div */
+
+div#greenDiv{
+  width: 800px;
+  vertical-align: top;
+  display: inline-block;
+  padding-left: 0;
+
+}
+
+  div#greenDiv ul{
+    padding-left: 23.5px;
+  }
+  div#greenDiv li{
+
+  }
+
+
+/* element styling */
+div.Element li{
+  text-align: center;
+  list-style-type: none;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 2px;
+}
+
+/*background color */
+.blueElement {
+  background-color: #689BFF;
+}
+
+.pinkElement {
+  background-color: #FD9A98;
+}
+
+.yellowElement {
+  background-color: #FECB00;
+}
+
+.greenElement{
+  background-color: #1FCA21;
+}
+
+/*inner element styling*/
+.eleNum{
+  font-size: .7em;
+  margin-top: 1px;
+}
+
+.eleSym{
+  font-weight: bold;
+  margin-top: 1px;
+  color: #19139F;
+}
+
+.atomNum{
+  font-size: .7em;
+  margin-top: 1px;
+}
