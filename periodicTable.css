@@ -9,6 +9,7 @@ div#container {
   border: 1px solid red;
   height: 600px;
   margin: 0 auto;
+  background-color: lightgrey;
 }
 
 div#row1 ul{
